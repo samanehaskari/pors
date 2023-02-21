@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Edit profile</title>
+  </head>
+  <body>
+    <div class="flex flex-col mt-[22px] px-[22px]">
+      <div class="text-center font-semibold text-[22px] relative">
+        پروفایل
+        <img
+          src="../src/img/icons/left arrow black.svg"
+          class="h-[35px] w-[35px] absolute left-0 top-0 cursor-pointer"
+          alt=""
+        />
+      </div>
+      <!-- profile image -->
+      <div class="flex items-center justify-center mt-[43px]">
+        <div class="relative">
+          <img
+            src="../src/img/user profile pic rounded.png"
+            class="h-[140px] w-[140px] rounded-full cursor-pointer"
+            alt=""
+          />
+          <div
+            class="flex items-center justify-center absolute bottom-[3px] right-[8px] bg-[#FE5200] h-[26px] w-[26px] rounded-[5px] cursor-pointer"
+          >
+            <img src="../src/img/icons/pen icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- personal detail form -->
+      <form action="" class="flex flex-col gap-[15px] text-right mt-[32px]">
+        <div>
+          <label for="" class="inline-block">نام و نام خانوادگی</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              value="علیرضا عسکری"
+              class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">نام کاربری به لاتین</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              value="alireza.askari.dev"
+              class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">تاریخ تولد</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              placeholder="تاریخ تولد"
+              class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">شماره موبایل</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="number"
+              value="09174805187"
+              class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">شماره موبایل</label>
+          <div
+            class="flex items-center justify-between w-full h-[51px] mt-2 px-5 space-x-3 bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC]"
+          >
+            <img class="h-2 w-2" src="img/icons/down-arrow-bold.svg" alt="" />
+
+            <select
+              class="block appearance-none outline-none text-right text-black font-semibold w-full h-full bg-[#F5F5F5]"
+              name=""
+              id=""
+            >
+              <option value="">مرد</option>
+              <option value="">زن</option>
+            </select>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="w-full h-[51px] rounded-full bg-[#FFC3A6] text-white mt-[49px] mb-[86px] text-center shadow-filter-button"
+        >
+          ذخیره
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

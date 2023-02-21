@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef profile</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+  </head>
+  <body>
+    <!-- slider and header -->
+    <div class="relative h-[333px] w-auto">
+      <img
+        class="w-full h-full rounded-bl-[18px]"
+        src="../src/img/slider 2.png"
+        alt=""
+      />
+      <div
+        class="transform -translate-x-2/4 flex gap-1 absolute bottom-4 left-2/4"
+      >
+        <!-- active button -->
+        <div class="bg-[#FE5200] w-[25px] h-[5px] rounded-full"></div>
+        <div class="bg-white w-[8px] h-[5px] rounded-full opacity-70"></div>
+        <div class="bg-white w-[8px] h-[5px] rounded-full opacity-70"></div>
+      </div>
+      <header class="absolute top-[55px] left-0 w-full">
+        <div class="flex justify-between mx-[22px]">
+          <!-- buy basket -->
+          <img
+            class="cursor-pointer"
+            src="../src/img/icons/buy basket header white.svg"
+            alt=""
+          />
+          <!-- logo -->
+          <img
+            class="cursor-pointer"
+            src="../src/img/icons/logo white.svg"
+            alt=""
+          />
+          <!-- menu hamberger icon -->
+          <img
+            class="cursor-pointer"
+            src="../src/img/icons/arrow right header white.svg"
+            alt=""
+          />
+        </div>
+      </header>
+      <!-- chef profile image -->
+      <div
+        class="absolute w-[112px] h-[100px] flex items-center justify-center rounded-l-[18px] bg-white right-0 bottom-[17px]"
+      >
+        <img
+          class="rounded-full h-[72px] w-[72px]"
+          src="../src/img/chef profile photo.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- Description of the chef's profile -->
+    <div class="flex flex-col gap-2 mx-[22px] mt-5 relative text-right">
+      <h1 class="text-[23px] font-medium text-[#40393A]">محمد جواد عظیمی</h1>
+      <p class="text-[#A7A2A3] font-semibold text-sm">سر آشپر</p>
+      <p class="text-[#A7A2A3] text-xs leading-[22px]">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+        از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر
+        آنچنان که لازم است.
+      </p>
+      <!-- chef rate -->
+      <div></div>
+    </div>
+    <!-- tag row -->
+    <div
+      class="flex flex-row-reverse px-[22px] pt-[10px] overflow-x-scroll scroll-smooth no-scrollbar"
+    >
+      <div class="flex flex-row-reverse h-auto gap-[15px]">
+        <!-- active tag-->
+        <div
+          class="py-2.5 px-4 rounded-full bg-[#FD7130] text-white text-right font-semibold text-[15px] cursor-pointer shrink-0"
+        >
+          همه
+        </div>
+        <div
+          class="py-2.5 px-4 rounded-full border-2 border-[#FD7130] text-[#FD7130] text-right font-semibold text-[15px] shrink-0 cursor-pointer"
+        >
+          غذای گیاهی
+        </div>
+        <div
+          class="py-2.5 px-4 rounded-full border-2 border-[#FD7130] text-[#FD7130] text-right font-semibold text-[15px] shrink-0 cursor-pointer"
+        >
+          بوتیک پروتئین
+        </div>
+        <div
+          class="py-2.5 px-4 rounded-full border-2 border-[#FD7130] text-[#FD7130] text-right font-semibold text-[15px] shrink-0 cursor-pointer"
+        >
+          پلو و چلو
+        </div>
+        <!-- end of row white space -->
+        <div class="w-[22px] h-full opacity-0">.</div>
+      </div>
+    </div>
+    <!-- chef meals -->
+    <div class="flex flex-col gap-2.5 mt-6 mx-[22px]">
+      <!-- meal card 1 -->
+      <div
+        class="h-[122px] flex flex-row-reverse border-b-[0.5px] border-[#EEEEEE] gap-[12px] text-right"
+      >
+        <img
+          src="../src/img/post pics/daily sugestion 2.png"
+          class="h-[112px] w-[112px] rounded-xl"
+          alt=""
+        />
+
+        <div class="w-[258px] h-auto flex flex-col my-auto">
+          <div class="flex flex-row-reverse justify-between">
+            <!-- title -->
+            <p class="text-sm font-semibold text-[#40393A]">پیتزا قارچ و مرغ</p>
+            <!-- meal rate -->
+            <div class="flex flex-row-reverse gap-[5px] items-center">
+              <p class="font-bold text-[11px]">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- ingradient -->
+          <p class="text-[13px] text-[#A7A2A3] mt-1">
+            خمیر خانگی، اسلایس مرغ، فلفل
+          </p>
+          <div class="flex flex-row-reverse justify-between mt-2">
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <!-- price -->
+              <p class="font-serif text-lg">200,000</p>
+              <p class="text-xs text-[#858585] mt-3">تومان</p>
+            </div>
+            <button
+              class="text-xs text-white font-bold py-2 px-[26px] bg-[#FD7130] rounded-full cursor-pointer"
+            >
+              افزودن
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- meal card 2 -->
+      <div
+        class="h-[122px] flex flex-row-reverse border-b-[0.5px] border-[#EEEEEE] gap-[12px] text-right"
+      >
+        <img
+          src="../src/img/post pics/daily sugestion 1.png"
+          class="h-[112px] w-[112px] rounded-xl"
+          alt=""
+        />
+
+        <div class="w-[258px] h-auto flex flex-col my-auto">
+          <div class="flex flex-row-reverse justify-between">
+            <!-- title -->
+            <p class="text-sm font-semibold text-[#40393A]">پیتزا قارچ و مرغ</p>
+            <!-- meal rate -->
+            <div class="flex flex-row-reverse gap-[5px] items-center">
+              <p class="font-bold text-[11px]">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- ingradient -->
+          <p class="text-[13px] text-[#A7A2A3] mt-1">
+            خمیر خانگی، اسلایس مرغ، فلفل
+          </p>
+          <div class="flex flex-row-reverse justify-between mt-2">
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <!-- price -->
+              <p class="font-serif text-lg">200,000</p>
+              <p class="text-xs text-[#858585] mt-3">تومان</p>
+            </div>
+            <div class="flex flex-row-reverse gap-[13px] items-center">
+              <button
+                class="flex items-center justify-center bg-[#FFECEF] rounded-xl h-[33px] w-[33px]"
+              >
+                <img
+                  src="../src/img/icons/gray plus.svg"
+                  class="h-[13px] w-[13px]"
+                  alt=""
+                />
+              </button>
+              <!-- number of order -->
+              <p class="font-serif text-base">1</p>
+              <button
+                class="flex items-center justify-center bg-[#FFECEF] rounded-xl h-[33px] w-[33px]"
+              >
+                <img
+                  src="../src/img/icons/minus gray.svg"
+                  class="h-[13px] w-[13px]"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- meal card 3-->
+      <div
+        class="h-[122px] flex flex-row-reverse border-b-[0.5px] border-[#EEEEEE] gap-[12px] text-right"
+      >
+        <img
+          src="../src/img/post pics/daily sugestion 2.png"
+          class="h-[112px] w-[112px] rounded-xl"
+          alt=""
+        />
+
+        <div class="w-[258px] h-auto flex flex-col my-auto">
+          <div class="flex flex-row-reverse justify-between">
+            <!-- title -->
+            <p class="text-sm font-semibold text-[#40393A]">پیتزا قارچ و مرغ</p>
+            <!-- meal rate -->
+            <div class="flex flex-row-reverse gap-[5px] items-center">
+              <p class="font-bold text-[11px]">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- ingradient -->
+          <p class="text-[13px] text-[#A7A2A3] mt-1">
+            خمیر خانگی، اسلایس مرغ، فلفل
+          </p>
+          <div class="flex flex-row-reverse justify-between mt-2">
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <!-- price -->
+              <p class="font-serif text-lg">200,000</p>
+              <p class="text-xs text-[#858585] mt-3">تومان</p>
+            </div>
+            <button
+              class="text-xs text-white font-bold py-2 px-[26px] bg-[#FD7130] rounded-full cursor-pointer"
+            >
+              افزودن
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- meal card 4-->
+      <div
+        class="h-[122px] flex flex-row-reverse border-b-[0.5px] border-[#EEEEEE] gap-[12px] text-right"
+      >
+        <img
+          src="../src/img/post pics/daily sugestion 1.png"
+          class="h-[112px] w-[112px] rounded-xl"
+          alt=""
+        />
+
+        <div class="w-[258px] h-auto flex flex-col my-auto">
+          <div class="flex flex-row-reverse justify-between">
+            <!-- title -->
+            <p class="text-sm font-semibold text-[#40393A]">پیتزا قارچ و مرغ</p>
+            <!-- meal rate -->
+            <div class="flex flex-row-reverse gap-[5px] items-center">
+              <p class="font-bold text-[11px]">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- ingradient -->
+          <p class="text-[13px] text-[#A7A2A3] mt-1">
+            خمیر خانگی، اسلایس مرغ، فلفل
+          </p>
+          <div class="flex flex-row-reverse justify-between mt-2">
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <!-- price -->
+              <p class="font-serif text-lg">200,000</p>
+              <p class="text-xs text-[#858585] mt-3">تومان</p>
+            </div>
+            <button
+              class="text-xs text-white font-bold py-2 px-[26px] bg-[#FD7130] rounded-full cursor-pointer"
+            >
+              افزودن
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- meal card 5-->
+      <div
+        class="h-[122px] flex flex-row-reverse border-b-[0.5px] border-[#EEEEEE] gap-[12px] text-right"
+      >
+        <img
+          src="../src/img/post pics/daily sugestion 2.png"
+          class="h-[112px] w-[112px] rounded-xl"
+          alt=""
+        />
+
+        <div class="w-[258px] h-auto flex flex-col my-auto">
+          <div class="flex flex-row-reverse justify-between">
+            <!-- title -->
+            <p class="text-sm font-semibold text-[#40393A]">پیتزا قارچ و مرغ</p>
+            <!-- meal rate -->
+            <div class="flex flex-row-reverse gap-[5px] items-center">
+              <p class="font-bold text-[11px]">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- ingradient -->
+          <p class="text-[13px] text-[#A7A2A3] mt-1">
+            خمیر خانگی، اسلایس مرغ، فلفل
+          </p>
+          <div class="flex flex-row-reverse justify-between mt-2">
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <!-- price -->
+              <p class="font-serif text-lg">200,000</p>
+              <p class="text-xs text-[#858585] mt-3">تومان</p>
+            </div>
+            <button
+              class="text-xs text-white font-bold py-2 px-[26px] bg-[#FD7130] rounded-full cursor-pointer"
+            >
+              افزودن
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end of page white space -->
+    <div class="h-[80px] w-full"></div>
+    <!-- nav menu -->
+    <div class="fixed bottom-0 left-0 h-[75px] w-full shadow-lg bg-white">
+      <div class="w-[330px] mx-auto my-[13px] flex gap-[40px]">
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/user menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">پروفایل</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/settings menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">تنظیمات</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/calendar menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">ثبت سفارش</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/location menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">آشپز ها</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/home orange menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#FE5200]">خانه</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

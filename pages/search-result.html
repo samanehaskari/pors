@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Search result</title>
+  </head>
+  <body>
+    <header class="bg-white">
+      <div class="flex justify-between mx-[22px] mt-[11px]">
+        <!-- buy basket -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/shopping basket orange.svg"
+          alt=""
+        />
+        <!-- logo -->
+        <img class="cursor-pointer" src="img/icons/logo o 2.svg" alt="" />
+        <!-- menu hamberger icon -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/hamberger menu icon.svg"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- search form -->
+    <form action="">
+      <div
+        class="flex flex-row items-center h-[48px] bg-[#F5F5F5] rounded-[18px] border border-[#EAEBEC] text-sm text-black mx-[22px] mt-[24px] px-4"
+      >
+        <div class="relative">
+          <img
+            src="../src/img/icons/sliders-h orange.svg"
+            class="cursor-pointer"
+            alt=""
+          />
+          <div
+            class="absolute top-[-20px] right-[-20px] flex justify-center items-center h-[22px] w-[22px] rounded-full border-[0.5px] border-[#FE5200] bg-white"
+          >
+            <p class="font-serif text-base text-[#FE5200]">3</p>
+          </div>
+        </div>
+        <input
+          type="text"
+          placeholder="جستجو در پورس"
+          class="focus:outline-none bg-[#F5F5F5] grow text-right px-4"
+          name=""
+          id=""
+          value="خورشت سبزی"
+        />
+        <button type="submit">
+          <img src="../src/img/icons/magnifier.svg" alt="" />
+        </button>
+      </div>
+    </form>
+    <!-- Selected filters -->
+    <div
+      class="flex flex-row-reverse px-[22px] overflow-x-scroll scroll-smooth no-scrollbar mt-[13px]"
+    >
+      <div class="flex flex-row-reverse h-auto gap-[10px]">
+        <div
+          class="flex flex-row-reverse gap-1 items-center justify-center py-2 px-[15px] rounded-full bg-[#FE5200] text-white text-right font-semibold text-[14px] cursor-pointer shrink-0"
+        >
+          <p>km</p>
+          <p>1</p>
+        </div>
+        <div
+          class="flex flex-row-reverse gap-1 items-center justify-center py-2 px-[15px] rounded-full bg-[#FE5200] text-white text-right font-semibold text-[14px] cursor-pointer shrink-0"
+        >
+          <p>خورشت</p>
+        </div>
+        <div
+          class="flex flex-row-reverse gap-1 items-center justify-center py-2 px-[15px] rounded-full bg-[#FE5200] text-white text-right font-semibold text-[14px] cursor-pointer shrink-0"
+        >
+          <img src="../src/img/icons/star Filled white.svg" alt="" />
+          <p class="font-serif">4</p>
+        </div>
+        <!-- end of row white space -->
+        <div class="w-[22px] h-full opacity-0">.</div>
+      </div>
+    </div>
+    <div class="mx-[22px] mt-[19px]">
+      <hr />
+      <!-- filter titel part -->
+      <div class="flex flex-row-reverse justify-between items-center mt-6">
+        <h3 class="text-xl font-semibold">
+          “جستجو برای“
+          <span class="text-[#FE5200]">خورشت سبزی</span>
+        </h3>
+        <!-- total results -->
+        <div
+          class="flex flex-row-reverse items-center gap-[2px] font-serif text-[#FE5200]"
+        >
+          <div class="text-base">213</div>
+          <div class="text-sm">یافت شد</div>
+        </div>
+      </div>
+      <!-- search resultes -->
+      <div class="my-[40px] flex flex-col gap-[25px]">
+        <!-- meal card -->
+        <div
+          class="relative w-full h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+        >
+          <div class="m-4 flex flex-row-reverse gap-[11px]">
+            <img
+              src="../src/img/post pics/daily sugestion 3.png"
+              class="rounded-[17px] h-[80px] w-[80px]"
+              alt=""
+            />
+            <div class="flex flex-col gap-2 text-right">
+              <p class="font-semibold text-sm">خورشت سبزی</p>
+              <p class="font-semibold text-xs text-[#A3A3A3]">
+                ...خیابان قدوسی, نبش کوچه
+              </p>
+              <div class="flex flex-row-reverse gap-[10px] items-center">
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/user filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                </div>
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/location filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+          >
+            <p class="font-bold text-[11px] pt-1">4.3</p>
+            <img
+              src="../src/img/icons/star.svg"
+              class="h-[15px] w-[15px]"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- meal card -->
+        <div
+          class="relative w-full h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+        >
+          <div class="m-4 flex flex-row-reverse gap-[11px]">
+            <img
+              src="../src/img/post pics/daily sugestion 3.png"
+              class="rounded-[17px] h-[80px] w-[80px]"
+              alt=""
+            />
+            <div class="flex flex-col gap-2 text-right">
+              <p class="font-semibold text-sm">خورشت سبزی</p>
+              <p class="font-semibold text-xs text-[#A3A3A3]">
+                ...خیابان قدوسی, نبش کوچه
+              </p>
+              <div class="flex flex-row-reverse gap-[10px] items-center">
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/user filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                </div>
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/location filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+          >
+            <p class="font-bold text-[11px] pt-1">4.3</p>
+            <img
+              src="../src/img/icons/star.svg"
+              class="h-[15px] w-[15px]"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- meal card -->
+        <div
+          class="relative w-full h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+        >
+          <div class="m-4 flex flex-row-reverse gap-[11px]">
+            <img
+              src="../src/img/post pics/daily sugestion 3.png"
+              class="rounded-[17px] h-[80px] w-[80px]"
+              alt=""
+            />
+            <div class="flex flex-col gap-2 text-right">
+              <p class="font-semibold text-sm">خورشت سبزی</p>
+              <p class="font-semibold text-xs text-[#A3A3A3]">
+                ...خیابان قدوسی, نبش کوچه
+              </p>
+              <div class="flex flex-row-reverse gap-[10px] items-center">
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/user filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                </div>
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/location filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+          >
+            <p class="font-bold text-[11px] pt-1">4.3</p>
+            <img
+              src="../src/img/icons/star.svg"
+              class="h-[15px] w-[15px]"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- meal card -->
+        <div
+          class="relative w-full h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+        >
+          <div class="m-4 flex flex-row-reverse gap-[11px]">
+            <img
+              src="../src/img/post pics/daily sugestion 3.png"
+              class="rounded-[17px] h-[80px] w-[80px]"
+              alt=""
+            />
+            <div class="flex flex-col gap-2 text-right">
+              <p class="font-semibold text-sm">خورشت سبزی</p>
+              <p class="font-semibold text-xs text-[#A3A3A3]">
+                ...خیابان قدوسی, نبش کوچه
+              </p>
+              <div class="flex flex-row-reverse gap-[10px] items-center">
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/user filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                </div>
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/location filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+          >
+            <p class="font-bold text-[11px] pt-1">4.3</p>
+            <img
+              src="../src/img/icons/star.svg"
+              class="h-[15px] w-[15px]"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- meal card -->
+        <div
+          class="relative w-full h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+        >
+          <div class="m-4 flex flex-row-reverse gap-[11px]">
+            <img
+              src="../src/img/post pics/daily sugestion 3.png"
+              class="rounded-[17px] h-[80px] w-[80px]"
+              alt=""
+            />
+            <div class="flex flex-col gap-2 text-right">
+              <p class="font-semibold text-sm">خورشت سبزی</p>
+              <p class="font-semibold text-xs text-[#A3A3A3]">
+                ...خیابان قدوسی, نبش کوچه
+              </p>
+              <div class="flex flex-row-reverse gap-[10px] items-center">
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/user filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                </div>
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/location filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+          >
+            <p class="font-bold text-[11px] pt-1">4.3</p>
+            <img
+              src="../src/img/icons/star.svg"
+              class="h-[15px] w-[15px]"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- meal card -->
+        <div
+          class="relative w-full h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+        >
+          <div class="m-4 flex flex-row-reverse gap-[11px]">
+            <img
+              src="../src/img/post pics/daily sugestion 3.png"
+              class="rounded-[17px] h-[80px] w-[80px]"
+              alt=""
+            />
+            <div class="flex flex-col gap-2 text-right">
+              <p class="font-semibold text-sm">خورشت سبزی</p>
+              <p class="font-semibold text-xs text-[#A3A3A3]">
+                ...خیابان قدوسی, نبش کوچه
+              </p>
+              <div class="flex flex-row-reverse gap-[10px] items-center">
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/user filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                </div>
+                <div class="flex flex-row-reverse items-center">
+                  <img
+                    src="../src/img/icons/location filled orange.svg"
+                    class="h-5 w-5"
+                    alt=""
+                  />
+                  <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+          >
+            <p class="font-bold text-[11px] pt-1">4.3</p>
+            <img
+              src="../src/img/icons/star.svg"
+              class="h-[15px] w-[15px]"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

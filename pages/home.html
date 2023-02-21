@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth no-scrollbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Pors home page</title>
+  </head>
+  <body class="flex flex-col gap-[25px] my-[55px]">
+    <!-- start header -->
+    <header class="bg-white">
+      <div class="flex justify-between mx-[22px]">
+        <!-- buy basket -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/shopping basket orange.svg"
+          alt=""
+        />
+        <!-- logo -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/logo o 2.svg"
+          alt=""
+        />
+        <!-- menu hamberger icon -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/hamberger menu icon.svg"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- search form -->
+    <form action="">
+      <div
+        class="flex flex-row items-center h-[48px] bg-[#F5F5F5] rounded-[18px] border border-[#EAEBEC] text-sm text-black mx-[22px] px-4"
+      >
+        <img
+          src="../src/img/icons/sliders-h.svg"
+          class="cursor-pointer"
+          alt=""
+        />
+        <input
+          type="text"
+          placeholder="جستجو در پورس"
+          class="focus:outline-none bg-[#F5F5F5] grow text-right px-4"
+          name=""
+          id=""
+        />
+        <button type="submit">
+          <img src="../src/img/icons/magnifier.svg" alt="" />
+        </button>
+      </div>
+    </form>
+    <!-- slider part -->
+    <div
+      class="relative flex items-center justify-center mx-[22px] h-[181px] w-auto"
+    >
+      <img class="roundeed-[31px]" src="../src/img/slider1.png" alt="" />
+      <!-- slider controler buttons -->
+      <div
+        class="transform -translate-x-2/4 flex gap-1 absolute bottom-4 left-2/4"
+      >
+        <!-- active button -->
+        <div class="bg-white w-[25px] h-[5px] rounded-full"></div>
+        <div class="bg-white w-[8px] h-[5px] rounded-full opacity-70"></div>
+        <div class="bg-white w-[8px] h-[5px] rounded-full opacity-70"></div>
+      </div>
+    </div>
+    <!-- categories -->
+    <div
+      class="flex flex-row-reverse overflow-x-scroll gap-[30px] text-center scroll-smooth no-scrollbar"
+    >
+      <div class="h-full w-[22px]"></div>
+      <div class="flex flex-col items-center gap-2 shrink-0 cursor-pointer">
+        <div
+          class="flex items-center h-[61px] w-[61px] justify-center bg-[#0DAD3A] opacity-60 rounded-[18px]"
+        >
+          <img
+            src="../src/img/icons/catrgory icon 1.svg"
+            class="h-[33px] w-[33px]"
+            alt=""
+          />
+        </div>
+        <p class="text-[11px]">غذای گیاهی</p>
+      </div>
+      <div class="flex flex-col items-center gap-2 shrink-0 cursor-pointer">
+        <div
+          class="flex items-center h-[61px] w-[61px] justify-center bg-[#F04949] opacity-60 rounded-[18px]"
+        >
+          <img
+            src="../src/img/icons/catrgory icon meat.svg"
+            class="h-[33px] w-[33px]"
+            alt=""
+          />
+        </div>
+        <p class="text-[11px] inline-block">بوتیک پروتئین</p>
+      </div>
+      <div class="flex flex-col items-center gap-2 shrink-0 cursor-pointer">
+        <div
+          class="flex items-center h-[61px] w-[61px] justify-center bg-[#B5AEF3] opacity-60 rounded-[18px]"
+        >
+          <img
+            src="../src/img/icons/catrgory icon 1.svg"
+            class="h-[33px] w-[33px]"
+            alt=""
+          />
+        </div>
+        <p class="text-[11px]">پلو و چلو</p>
+      </div>
+      <div class="flex flex-col items-center gap-2 shrink-0 cursor-pointer">
+        <div
+          class="flex items-center h-[61px] w-[61px] justify-center bg-[#9D098E] opacity-60 rounded-[18px]"
+        >
+          <img
+            src="../src/img/icons/catrgory icon 1.svg"
+            class="h-[33px] w-[33px]"
+            alt=""
+          />
+        </div>
+        <p class="text-[11px]">گرانولا</p>
+      </div>
+      <div class="flex flex-col items-center gap-2 shrink-0 cursor-pointer">
+        <div
+          class="flex items-center h-[61px] w-[61px] justify-center bg-[#F04949] opacity-60 rounded-[18px]"
+        >
+          <img
+            src="../src/img/icons/catrgory icon meat.svg"
+            class="h-[33px] w-[33px]"
+            alt=""
+          />
+        </div>
+        <p class="text-[11px]">ایرانی</p>
+      </div>
+      <div class="h-full w-[22px]"></div>
+    </div>
+    <!-- today sugestions -->
+    <div>
+      <div class="flex justify-between mx-[22px] items-center">
+        <div class="text-[#FE5200] text-[13px] font-semibold cursor-pointer">
+          مشاهده همه
+        </div>
+        <h2 class="text-[#40393A] text-base">پیشنهاد روز</h2>
+      </div>
+      <!--meal row -->
+      <div
+        class="flex flex-row-reverse px-[22px] pt-[10px] overflow-x-scroll scroll-smooth no-scrollbar"
+      >
+        <div class="flex flex-row-reverse h-auto gap-[20px]">
+          <div
+            class="relative w-[299px] h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-4 flex flex-row-reverse gap-[11px]">
+              <img
+                src="../src/img/post pics/daily sugestion 1.png"
+                class="rounded-[17px] h-[80px] w-[80px]"
+                alt=""
+              />
+              <div class="flex flex-col gap-2 text-right">
+                <p class="font-semibold text-sm">املت هالوپینو</p>
+                <p class="font-semibold text-xs text-[#A3A3A3]">
+                  ...خیابان قدوسی, نبش کوچه
+                </p>
+                <div class="flex flex-row-reverse gap-[10px] items-center">
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/user filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                  </div>
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/location filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+            >
+              <p class="font-bold text-[11px] pt-1">4.3</p>
+              <img
+                src="../src/img/icons/star.svg"
+                class="h-[15px] w-[15px]"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="relative w-[299px] h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-4 flex flex-row-reverse gap-[11px]">
+              <img
+                src="../src/img/post pics/daily sugestion 2.png"
+                class="rounded-[17px] h-[80px] w-[80px]"
+                alt=""
+              />
+              <div class="flex flex-col gap-2 text-right">
+                <p class="font-semibold text-sm">املت هالوپینو</p>
+                <p class="font-semibold text-xs text-[#A3A3A3]">
+                  ...خیابان قدوسی, نبش کوچه
+                </p>
+                <div class="flex flex-row-reverse gap-[10px] items-center">
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/user filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                  </div>
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/location filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+            >
+              <p class="font-bold text-[11px] pt-1">4.3</p>
+              <img
+                src="../src/img/icons/star.svg"
+                class="h-[15px] w-[15px]"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--meal row -->
+      <div
+        class="flex flex-row-reverse px-[22px] pt-[10px] overflow-x-scroll scroll-smooth no-scrollbar"
+      >
+        <div class="flex flex-row-reverse h-auto gap-[20px]">
+          <div
+            class="relative w-[299px] h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-4 flex flex-row-reverse gap-[11px]">
+              <img
+                src="../src/img/post pics/daily sugestion 3.png"
+                class="rounded-[17px] h-[80px] w-[80px]"
+                alt=""
+              />
+              <div class="flex flex-col gap-2 text-right">
+                <p class="font-semibold text-sm">املت هالوپینو</p>
+                <p class="font-semibold text-xs text-[#A3A3A3]">
+                  ...خیابان قدوسی, نبش کوچه
+                </p>
+                <div class="flex flex-row-reverse gap-[10px] items-center">
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/user filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                  </div>
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/location filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+            >
+              <p class="font-bold text-[11px] pt-1">4.3</p>
+              <img
+                src="../src/img/icons/star.svg"
+                class="h-[15px] w-[15px]"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="relative w-[299px] h-[113px] border border-[#F4F4F4] rounded-[23px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-4 flex flex-row-reverse gap-[11px]">
+              <img
+                src="../src/img/post pics/daily sugestion 4.png"
+                class="rounded-[17px] h-[80px] w-[80px]"
+                alt=""
+              />
+              <div class="flex flex-col gap-2 text-right">
+                <p class="font-semibold text-sm">املت هالوپینو</p>
+                <p class="font-semibold text-xs text-[#A3A3A3]">
+                  ...خیابان قدوسی, نبش کوچه
+                </p>
+                <div class="flex flex-row-reverse gap-[10px] items-center">
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/user filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">مهسا رحیمی</p>
+                  </div>
+                  <div class="flex flex-row-reverse items-center">
+                    <img
+                      src="../src/img/icons/location filled orange.svg"
+                      class="h-5 w-5"
+                      alt=""
+                    />
+                    <p class="font-semibold text-[10px]">کیلومتر2.2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="top-[14px] left-[15px] absolute flex flex-row-reverse items-center justify-center gap-1"
+            >
+              <p class="font-bold text-[11px] pt-1">4.3</p>
+              <img
+                src="../src/img/icons/star.svg"
+                class="h-[15px] w-[15px]"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- best chefs -->
+    <div>
+      <div class="flex justify-between mx-[22px] items-center">
+        <div class="text-[#FE5200] text-[13px] font-semibold cursor-pointer">
+          مشاهده همه
+        </div>
+        <h2 class="text-[#40393A] text-base cursor-pointer">آشپز های خاص</h2>
+      </div>
+      <!-- chef row -->
+      <div
+        class="flex flex-row-reverse px-[22px] pt-[10px] overflow-x-scroll scroll-smooth no-scrollbar"
+      >
+        <div class="flex flex-row-reverse h-auto gap-[20px]">
+          <!-- chef card -->
+          <div
+            class="relative w-[177px] border border-[#F4F4F4] rounded-[10px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-1 flex flex-row-reverse gap-2.5">
+              <img
+                src="../src/img/post pics/chef 1.png"
+                class="h-[86px] w-[73px] rounded-r-[8px] rounded-l-[2px]"
+                alt=""
+              />
+              <p class="text-sm mt-2.5 text-right">مریم غلامی</p>
+            </div>
+            <div
+              class="absolute shadoe-rate flex flex-row-reverse py-1 px-2.5 gap-[5px] bottom-[9px] left-[9px] rounded-lg items-center shadow-md"
+            >
+              <p class="text-[10px] font-bold mt-1">4.9</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- end of chef card -->
+          <!-- chef card -->
+          <div
+            class="relative w-[177px] border border-[#F4F4F4] rounded-[10px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-1 flex flex-row-reverse gap-2.5">
+              <img
+                src="../src/img/post pics/chef 2.png"
+                class="h-[86px] w-[73px] rounded-r-[8px] rounded-l-[2px]"
+                alt=""
+              />
+              <p class="text-sm mt-2.5 text-right">جواد فتاهی</p>
+            </div>
+            <div
+              class="absolute shadoe-rate flex flex-row-reverse py-1 px-2.5 gap-[5px] bottom-[9px] left-[9px] rounded-lg items-center shadow-md"
+            >
+              <p class="text-[10px] font-bold mt-1">4.8</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- chef card -->
+          <div
+            class="relative w-[177px] border border-[#F4F4F4] rounded-[10px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-1 flex flex-row-reverse gap-2.5">
+              <img
+                src="../src/img/post pics/chef 3.png"
+                class="h-[86px] w-[73px] rounded-r-[8px] rounded-l-[2px]"
+                alt=""
+              />
+              <p class="text-sm mt-2.5 text-right">جواد فتاهی</p>
+            </div>
+            <div
+              class="absolute shadoe-rate flex flex-row-reverse py-1 px-2.5 gap-[5px] bottom-[9px] left-[9px] rounded-lg items-center shadow-md"
+            >
+              <p class="text-[10px] font-bold mt-1">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- end of chef card -->
+        </div>
+      </div>
+
+      <!-- chef row -->
+      <div
+        class="flex flex-row-reverse px-[22px] pt-[10px] overflow-x-scroll scroll-smooth no-scrollbar"
+      >
+        <div class="flex flex-row-reverse h-auto gap-[20px]">
+          <!-- chef card -->
+          <div
+            class="relative w-[177px] border border-[#F4F4F4] rounded-[10px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-1 flex flex-row-reverse gap-2.5">
+              <img
+                src="../src/img/post pics/chef 4.png"
+                class="h-[86px] w-[73px] rounded-r-[8px] rounded-l-[2px]"
+                alt=""
+              />
+              <p class="text-sm mt-2.5 text-right">علی کمالی</p>
+            </div>
+            <div
+              class="absolute shadoe-rate flex flex-row-reverse py-1 px-2.5 gap-[5px] bottom-[9px] left-[9px] rounded-lg items-center shadow-md"
+            >
+              <p class="text-[10px] font-bold mt-1">4.9</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- end of chef card -->
+          <!-- chef card -->
+          <div
+            class="relative w-[177px] border border-[#F4F4F4] rounded-[10px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-1 flex flex-row-reverse gap-2.5">
+              <img
+                src="../src/img/post pics/chef 5.png"
+                class="h-[86px] w-[73px] rounded-r-[8px] rounded-l-[2px]"
+                alt=""
+              />
+              <p class="text-sm mt-2.5 text-right">محمد جواد عظیمی</p>
+            </div>
+            <div
+              class="absolute shadoe-rate flex flex-row-reverse py-1 px-2.5 gap-[5px] bottom-[9px] left-[9px] rounded-lg items-center shadow-md"
+            >
+              <p class="text-[10px] font-bold mt-1">4.8</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- chef card -->
+          <div
+            class="relative w-[177px] border border-[#F4F4F4] rounded-[10px] shadow-sm shrink-0 cursor-pointer"
+          >
+            <div class="m-1 flex flex-row-reverse gap-2.5">
+              <img
+                src="../src/img/post pics/chef 6.png"
+                class="h-[86px] w-[73px] rounded-r-[8px] rounded-l-[2px]"
+                alt=""
+              />
+              <p class="text-sm mt-2.5 text-right">مریم غلامی</p>
+            </div>
+            <div
+              class="absolute shadoe-rate flex flex-row-reverse py-1 px-2.5 gap-[5px] bottom-[9px] left-[9px] rounded-lg items-center shadow-md"
+            >
+              <p class="text-[10px] font-bold mt-1">4.3</p>
+              <img src="../src/img/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <!-- end of chef card -->
+        </div>
+      </div>
+    </div>
+    <!--end of page white space -->
+    <div class="h-[30px] w-full"></div>
+    <!-- nav menu -->
+    <div class="fixed bottom-0 left-0 h-[75px] w-full shadow-lg bg-white">
+      <div class="w-[330px] mx-auto my-[13px] flex gap-[40px]">
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/user menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">پروفایل</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/settings menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">تنظیمات</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/calendar menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">ثبت سفارش</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/location menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#A1A1A1]">آشپز ها</p>
+        </div>
+        <div class="flex flex-col shrink-0 gap-1 cursor-pointer items-center">
+          <img
+            class="h-6 w-6"
+            src="../src/img/icons/home orange menu icon.svg"
+            alt=""
+          />
+          <p class="text-[9px] font-semibold text-[#FE5200]">خانه</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

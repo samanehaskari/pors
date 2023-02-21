@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Search</title>
+  </head>
+  <body class="flex flex-col gap-[25px] mx-[22px] mt-[11px] text-right">
+    <!-- start header -->
+    <header class="bg-white">
+      <div class="flex justify-between">
+        <!-- buy basket -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/shopping basket orange.svg"
+          alt=""
+        />
+        <!-- logo -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/logo o 2.svg"
+          alt=""
+        />
+        <!-- menu hamberger icon -->
+        <img
+          class="cursor-pointer"
+          src="../src/img/icons/hamberger menu icon.svg"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- search form -->
+    <form action="">
+      <div
+        class="flex flex-row items-center h-[48px] bg-[#FFF8F5] rounded-[18px] border border-[#FE5200] text-sm text-black px-4"
+      >
+        <img
+          class="h-[24px] w-[24px]"
+          src="../src/img/icons/sliders-h orange.svg"
+          class="cursor-pointer"
+          alt=""
+        />
+        <input
+          type="text"
+          placeholder="جستجو در پورس"
+          class="focus:outline-none bg-[#FFF8F5] grow text-right px-4"
+          value="خورشت سبزی"
+          name=""
+          id=""
+        />
+        <button type="submit">
+          <img
+            class="h-[24px] w-[24px]"
+            src="../src/img/icons/search orange.svg"
+            alt=""
+          />
+        </button>
+      </div>
+    </form>
+    <hr />
+    <h1 class="text-lg font-semibold">جستجو های قبلی شما</h1>
+    <!-- search history -->
+    <div class="flex flex-col gap-[15px]">
+      <div
+        class="h-[32px] flex flex-row-reverse justify-between border-b border-[#EEEEEE]"
+      >
+        <p class="text-lg text-[#A9A9A9] cursor-pointer">املت</p>
+        <img
+          src="../src/img/icons/times-square close gray.svg"
+          class="h-[24px] w-[24px] cursor-pointer"
+          alt=""
+        />
+      </div>
+      <div
+        class="h-[32px] flex flex-row-reverse justify-between border-b border-[#EEEEEE]"
+      >
+        <p class="text-lg text-[#A9A9A9] cursor-pointer">مرغ سوخاری</p>
+        <img
+          src="../src/img/icons/times-square close gray.svg"
+          class="h-[24px] w-[24px] cursor-pointer"
+          alt=""
+        />
+      </div>
+      <div
+        class="h-[32px] flex flex-row-reverse justify-between border-b border-[#EEEEEE]"
+      >
+        <p class="text-lg text-[#A9A9A9] cursor-pointer">کیک شکلاتی</p>
+        <img
+          src="../src/img/icons/times-square close gray.svg"
+          class="h-[24px] w-[24px] cursor-pointer"
+          alt=""
+        />
+      </div>
+      <div
+        class="h-[32px] flex flex-row-reverse justify-between border-b border-[#EEEEEE]"
+      >
+        <p class="text-lg text-[#A9A9A9] cursor-pointer">پاستا</p>
+        <img
+          src="../src/img/icons/times-square close gray.svg"
+          class="h-[24px] w-[24px] cursor-pointer"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
