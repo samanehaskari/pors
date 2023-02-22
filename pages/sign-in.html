@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Sign in</title>
+  </head>
+  <body class="h-screen">
+    <div class="px-[22px] h-full my-auto flex flex-col justify-center">
+      <!-- logo -->
+      <div class="flex items-center justify-center mt-[73px]">
+        <img
+          src="../src/img/logo.png"
+          alt="pors logo"
+          class="h-[105px] w-[136px]"
+        />
+      </div>
+      <!-- heading section-->
+      <div class="text-right mt-[17px]">
+        <h1 class="font-semibold text-[26px]">ورود</h1>
+        <p class="font-semibold text-2xl text-[#9E9E9E]">
+          به پروفایل کاربری آشپز
+        </p>
+      </div>
+      <form
+        action=""
+        class="flex flex-col justify-between text-right mt-[47px] h-full"
+      >
+        <div class="flex flex-col gap-[15px] text-right">
+          <div>
+            <label for="" class="inline-block font-bold text-[15px]"
+              >شماره موبایل</label
+            >
+            <div
+              class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+            >
+              <input
+                type="text"
+                placeholder="شماره موبایل خود را وارد کنید"
+                class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:border-[#FD7130] transition-all duration-200 h-full"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+          <div>
+            <label for="" class="inline-block font-bold text-[15px]"
+              >رمز عبور</label
+            >
+            <div
+              class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+            >
+              <input
+                type="password"
+                placeholder="رمز عبور خود را وارد کنید"
+                class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:border-[#FD7130] transition-all duration-200 h-full"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-[20px] mb-[86px] gap-[40px]">
+          <button
+            type="submit"
+            class="w-full h-[58px] rounded-full bg-[#FE5200] font-bold text-lg text-white text-center shadow-submit-button"
+          >
+            ورود
+          </button>
+          <div class="flex flex-row-reverse gap-2.5 cursor-pointer">
+            <p class="font-bold text-[#9E9E9E] text-[15px]">
+              اگر حساب کاربری ندارید؟
+            </p>
+            <p class="font-bold text-[#FE5200] text-[15px]">ثبت نام</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
