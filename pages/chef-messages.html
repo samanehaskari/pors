@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Chef messages</title>
+  </head>
+  <body class="h-screen">
+    <div
+      class="fixed top-0 left-0 flex flex-col gap-[25px] px-[20px] pt-[21px] pb-[15px] w-full bg-white"
+    >
+      <div class="flex justify-between w-full">
+        <img
+          class="cursor-pointer h-[35px] w-[35px]"
+          src="../src/img/icons/left arrow black.svg"
+          alt=""
+        />
+        <div class="flex flex-col gap-2 text-right">
+          <h1 class="font-semibold text-[22px]">پیام های سرآشپز</h1>
+          <p class="text-[#9E9E9E] font-semibold text-[15px]">
+            توی این بخش میتونی پیام هایی که برات میزارن رو ببینی
+          </p>
+        </div>
+      </div>
+      <!-- search form -->
+      <form action="">
+        <div
+          class="flex flex-row items-center h-[48px] bg-[#F5F5F5] rounded-[18px] border border-[#EAEBEC] text-sm text-black px-4"
+        >
+          <input
+            type="text"
+            placeholder="دنبال نظر کدوم غذا میگردی؟"
+            class="focus:outline-none bg-[#F5F5F5] grow text-right px-4"
+            name=""
+            id=""
+          />
+          <button type="submit">
+            <img src="../src/img/icons/magnifier.svg" alt="" />
+          </button>
+        </div>
+      </form>
+      <!-- tabs -->
+      <div class="flex gap-2.5 w-full">
+        <div
+          class="w-1/2 h-[38px] rounded-full border-2 border-[#FD7130] flex items-center justify-center text-[#FD7130] font-semibold text-[15px] cursor-pointer"
+        >
+          پیام های
+        </div>
+        <div
+          class="relative w-1/2 h-[38px] rounded-full flex items-center justify-center text-white bg-[#FD7130] font-semibold text-[15px] cursor-pointer"
+        >
+          <p class="ml-[11px]">نظرات کاربران</p>
+          <div
+            class="absolute h-[19px] w-[19px] bg-white text-[#FD7130] text-[10px] flex items-center justify-center rounded-full left-[14px]"
+          >
+            2
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- messages part -->
+    <div
+      class="px-[20px] pt-[260px] pb-[90px] flex flex-col gap-[15px] overflow-y-scroll no-scrollbar"
+    >
+      <!-- message card -->
+      <div
+        class="border border-[#F4F4F4] shadow-sm shrink-0 rounded-[24px] flex bg-white"
+      >
+        <div class="flex flex-col m-[14px] gap-[11px] shrink-0">
+          <img
+            src="../src/img/post pics/daily sugestion 3.png"
+            alt=""
+            class="h-[88px] w-[88px] rounded-[15px]"
+          />
+          <div class="flex items-center justify-between px-1">
+            <img
+              src="../src/img/icons/heart.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/trash.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/thumbtack.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col text-right justify-between my-[13px] mx-[16px]"
+        >
+          <div>
+            <div class="flex flex-row-reverse gap-2.5 items-center">
+              <div
+                class="rounded-full h-[27px] w-[27px] bg-[#F3F3F3] flex items-center justify-center"
+              >
+                <img
+                  src="../src/img/icons/user menu icon.svg"
+                  class="h-[19px] w-[19px]"
+                  alt=""
+                />
+              </div>
+              <div class="text-base font-medium">محمد فاضلی</div>
+            </div>
+            <hr class="w-full mt-2 right-0" />
+          </div>
+          <div>
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <div class="font-semibold text-[14px]">خورشت سبزی</div>
+              <div class="text-[#979191] text-[12px] font-semibold">امتیاز</div>
+              <div class="text-[9px] text-[#FE5200] font-semibold">4.5</div>
+            </div>
+            <div class="text-xs">قرمه سبزی خوشمزه ای بود ممنون</div>
+          </div>
+          <div class="flex flex-row-reverse text-[10px] text-[#B7B7B7]">
+            <div>: تاریخ</div>
+            <div>سشنبه-22-آبان-1402</div>
+          </div>
+        </div>
+      </div>
+      <!-- message card -->
+      <div
+        class="border border-[#F4F4F4] shadow-sm shrink-0 rounded-[24px] flex bg-white"
+      >
+        <div class="flex flex-col m-[14px] gap-[11px] shrink-0">
+          <img
+            src="../src/img/post pics/daily sugestion 3.png"
+            alt=""
+            class="h-[88px] w-[88px] rounded-[15px]"
+          />
+          <div class="flex items-center justify-between px-1">
+            <img
+              src="../src/img/icons/heart.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/trash.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/thumbtack.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col text-right justify-between my-[13px] mx-[16px]"
+        >
+          <div>
+            <div class="flex flex-row-reverse gap-2.5 items-center">
+              <div
+                class="rounded-full h-[27px] w-[27px] bg-[#F3F3F3] flex items-center justify-center"
+              >
+                <img
+                  src="../src/img/icons/user menu icon.svg"
+                  class="h-[19px] w-[19px]"
+                  alt=""
+                />
+              </div>
+              <div class="text-base font-medium">محمد فاضلی</div>
+            </div>
+            <hr class="w-full mt-2 right-0" />
+          </div>
+          <div>
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <div class="font-semibold text-[14px]">خورشت سبزی</div>
+              <div class="text-[#979191] text-[12px] font-semibold">امتیاز</div>
+              <div class="text-[9px] text-[#FE5200] font-semibold">4.5</div>
+            </div>
+            <div class="text-xs">قرمه سبزی خوشمزه ای بود ممنون</div>
+          </div>
+          <div class="flex flex-row-reverse text-[10px] text-[#B7B7B7]">
+            <div>: تاریخ</div>
+            <div>سشنبه-22-آبان-1402</div>
+          </div>
+        </div>
+      </div>
+      <!-- message card -->
+      <div
+        class="border border-[#F4F4F4] shadow-sm shrink-0 rounded-[24px] flex bg-white"
+      >
+        <div class="flex flex-col m-[14px] gap-[11px] shrink-0">
+          <img
+            src="../src/img/post pics/daily sugestion 3.png"
+            alt=""
+            class="h-[88px] w-[88px] rounded-[15px]"
+          />
+          <div class="flex items-center justify-between px-1">
+            <img
+              src="../src/img/icons/heart.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/trash.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/thumbtack.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col text-right justify-between my-[13px] mx-[16px]"
+        >
+          <div>
+            <div class="flex flex-row-reverse gap-2.5 items-center">
+              <div
+                class="rounded-full h-[27px] w-[27px] bg-[#F3F3F3] flex items-center justify-center"
+              >
+                <img
+                  src="../src/img/icons/user menu icon.svg"
+                  class="h-[19px] w-[19px]"
+                  alt=""
+                />
+              </div>
+              <div class="text-base font-medium">محمد فاضلی</div>
+            </div>
+            <hr class="w-full mt-2 right-0" />
+          </div>
+          <div>
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <div class="font-semibold text-[14px]">خورشت سبزی</div>
+              <div class="text-[#979191] text-[12px] font-semibold">امتیاز</div>
+              <div class="text-[9px] text-[#FE5200] font-semibold">4.5</div>
+            </div>
+            <div class="text-xs">قرمه سبزی خوشمزه ای بود ممنون</div>
+          </div>
+          <div class="flex flex-row-reverse text-[10px] text-[#B7B7B7]">
+            <div>: تاریخ</div>
+            <div>سشنبه-22-آبان-1402</div>
+          </div>
+        </div>
+      </div>
+      <!-- message card -->
+      <div
+        class="border border-[#F4F4F4] shadow-sm shrink-0 rounded-[24px] flex bg-white"
+      >
+        <div class="flex flex-col m-[14px] gap-[11px] shrink-0">
+          <img
+            src="../src/img/post pics/daily sugestion 3.png"
+            alt=""
+            class="h-[88px] w-[88px] rounded-[15px]"
+          />
+          <div class="flex items-center justify-between px-1">
+            <img
+              src="../src/img/icons/heart.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/trash.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/thumbtack.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col text-right justify-between my-[13px] mx-[16px]"
+        >
+          <div>
+            <div class="flex flex-row-reverse gap-2.5 items-center">
+              <div
+                class="rounded-full h-[27px] w-[27px] bg-[#F3F3F3] flex items-center justify-center"
+              >
+                <img
+                  src="../src/img/icons/user menu icon.svg"
+                  class="h-[19px] w-[19px]"
+                  alt=""
+                />
+              </div>
+              <div class="text-base font-medium">محمد فاضلی</div>
+            </div>
+            <hr class="w-full mt-2 right-0" />
+          </div>
+          <div>
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <div class="font-semibold text-[14px]">خورشت سبزی</div>
+              <div class="text-[#979191] text-[12px] font-semibold">امتیاز</div>
+              <div class="text-[9px] text-[#FE5200] font-semibold">4.5</div>
+            </div>
+            <div class="text-xs">قرمه سبزی خوشمزه ای بود ممنون</div>
+          </div>
+          <div class="flex flex-row-reverse text-[10px] text-[#B7B7B7]">
+            <div>: تاریخ</div>
+            <div>سشنبه-22-آبان-1402</div>
+          </div>
+        </div>
+      </div>
+      <!-- message card -->
+      <div
+        class="border border-[#F4F4F4] shadow-sm shrink-0 rounded-[24px] flex bg-white"
+      >
+        <div class="flex flex-col m-[14px] gap-[11px] shrink-0">
+          <img
+            src="../src/img/post pics/daily sugestion 3.png"
+            alt=""
+            class="h-[88px] w-[88px] rounded-[15px]"
+          />
+          <div class="flex items-center justify-between px-1">
+            <img
+              src="../src/img/icons/heart.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/trash.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/thumbtack.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col text-right justify-between my-[13px] mx-[16px]"
+        >
+          <div>
+            <div class="flex flex-row-reverse gap-2.5 items-center">
+              <div
+                class="rounded-full h-[27px] w-[27px] bg-[#F3F3F3] flex items-center justify-center"
+              >
+                <img
+                  src="../src/img/icons/user menu icon.svg"
+                  class="h-[19px] w-[19px]"
+                  alt=""
+                />
+              </div>
+              <div class="text-base font-medium">محمد فاضلی</div>
+            </div>
+            <hr class="w-full mt-2 right-0" />
+          </div>
+          <div>
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <div class="font-semibold text-[14px]">خورشت سبزی</div>
+              <div class="text-[#979191] text-[12px] font-semibold">امتیاز</div>
+              <div class="text-[9px] text-[#FE5200] font-semibold">4.5</div>
+            </div>
+            <div class="text-xs">قرمه سبزی خوشمزه ای بود ممنون</div>
+          </div>
+          <div class="flex flex-row-reverse text-[10px] text-[#B7B7B7]">
+            <div>: تاریخ</div>
+            <div>سشنبه-22-آبان-1402</div>
+          </div>
+        </div>
+      </div>
+      <!-- message card -->
+      <div
+        class="border border-[#F4F4F4] shadow-sm shrink-0 rounded-[24px] flex bg-white"
+      >
+        <div class="flex flex-col m-[14px] gap-[11px] shrink-0">
+          <img
+            src="../src/img/post pics/daily sugestion 3.png"
+            alt=""
+            class="h-[88px] w-[88px] rounded-[15px]"
+          />
+          <div class="flex items-center justify-between px-1">
+            <img
+              src="../src/img/icons/heart.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/trash.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+            <img
+              src="../src/img/icons/thumbtack.svg"
+              alt=""
+              class="h-[17px] w-[17px] cursor-pointer"
+            />
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col text-right justify-between my-[13px] mx-[16px]"
+        >
+          <div>
+            <div class="flex flex-row-reverse gap-2.5 items-center">
+              <div
+                class="rounded-full h-[27px] w-[27px] bg-[#F3F3F3] flex items-center justify-center"
+              >
+                <img
+                  src="../src/img/icons/user menu icon.svg"
+                  class="h-[19px] w-[19px]"
+                  alt=""
+                />
+              </div>
+              <div class="text-base font-medium">محمد فاضلی</div>
+            </div>
+            <hr class="w-full mt-2 right-0" />
+          </div>
+          <div>
+            <div class="flex flex-row-reverse items-center gap-1.5">
+              <div class="font-semibold text-[14px]">خورشت سبزی</div>
+              <div class="text-[#979191] text-[12px] font-semibold">امتیاز</div>
+              <div class="text-[9px] text-[#FE5200] font-semibold">4.5</div>
+            </div>
+            <div class="text-xs">قرمه سبزی خوشمزه ای بود ممنون</div>
+          </div>
+          <div class="flex flex-row-reverse text-[10px] text-[#B7B7B7]">
+            <div>: تاریخ</div>
+            <div>سشنبه-22-آبان-1402</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav-->
+    <div
+      class="fixed bottom-0 left-0 bg-white h-[75px] z-30 w-full shadow-nav-shadow flex items-center justify-center"
+    >
+      <div class="h-[50px] flex items-center justify-center gap-[35px]">
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/user nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">پروفایل</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/settings nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">پروفایل</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/store nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#FE5200]">منوشما</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/credit card nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">حسابداری</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <div class="relative">
+            <img
+              src="../src/img/icons/comment dots nav menu.svg"
+              alt=""
+              class="h-[24px] w-[24px]"
+            />
+            <div
+              class="absolute top-[-3px] right-[-3px] h-[13px] w-[13px] flex items-center justify-center bg-[#FE5200] text-white font-semibold text-[8px] rounded-full"
+            >
+              2
+            </div>
+          </div>
+
+          <p class="text-[11px] text-[#41416E]">پیام ها</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/home nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">خانه</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

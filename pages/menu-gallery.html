@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Menu gallery</title>
+  </head>
+  <body class="h-screen">
+    <div
+      class="top-0 left-0 flex flex-col gap-[25px] px-[20px] pt-[21px] pb-[15px] w-full bg-white"
+    >
+      <div class="flex justify-between w-full">
+        <img
+          class="cursor-pointer h-[35px] w-[35px]"
+          src="../src/img/icons/left arrow black.svg"
+          alt=""
+        />
+        <div class="flex flex-col gap-2 text-right">
+          <div class="flex flex-row-reverse gap-2 items-center">
+            <div class="font-semibold text-[22px]">منو شما</div>
+            <div class="font-bold text-lg text-[#FE5200]">گالری تصاویر /</div>
+          </div>
+          <p class="text-[#9E9E9E] font-semibold text-[15px]">
+            گالری تصاویر شما برای قورمه سبزی
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- gallery -->
+    <div class="px-[24px] flex flex-col gap-[18px]">
+      <!-- main photo -->
+      <div
+        class="w-full h-[223px] bg-[#FE5200] relative rounded-[12px] overflow-hidden"
+      >
+        <img
+          src="../src/img/post pics/photo gallery main.png"
+          alt=""
+          class="h-full w-full opacity-80"
+        />
+        <div
+          class="absolute top-[10px] right-[8px] bg-white opacity-80 rounded-lg h-[41px] w-[90px] flex items-center justify-center font-bold text-[12px]"
+        >
+          عکس کاور
+        </div>
+      </div>
+      <!-- other photos -->
+      <div class="flex flex-row-reverse gap-[15px]">
+        <img
+          src="../src/img/post pics/photo gallery 1.png"
+          alt=""
+          class="h-[62px] w-[62px] rounded-xl"
+        />
+        <img
+          src="../src/img/post pics/photo gallery 2.png"
+          alt=""
+          class="h-[62px] w-[62px] rounded-xl"
+        />
+        <img
+          src="../src/img/post pics/photo gallery 3.png"
+          alt=""
+          class="h-[62px] w-[62px] rounded-xl"
+        />
+        <form action="">
+          <div
+            class="h-[62px] w-[62px] rounded-xl bg-[#FAF7F7] border border-dashed border-[#FE5200] relative text-[36px] text-[#FD7130]"
+          >
+            <input type="file" class="w-full h-full opacity-0" />
+            <p
+              class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+            >
+              +
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- nav-->
+    <div
+      class="fixed bottom-0 left-0 bg-white h-[75px] z-30 w-full shadow-nav-shadow flex items-center justify-center"
+    >
+      <div class="h-[50px] flex items-center justify-center gap-[35px]">
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/user nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">پروفایل</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/settings nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">پروفایل</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/store nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#FE5200]">منوشما</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/credit card nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">حسابداری</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <div class="relative">
+            <img
+              src="../src/img/icons/comment dots nav menu.svg"
+              alt=""
+              class="h-[24px] w-[24px]"
+            />
+            <div
+              class="absolute top-[-3px] right-[-3px] h-[13px] w-[13px] flex items-center justify-center bg-[#FE5200] text-white font-semibold text-[8px] rounded-full"
+            >
+              2
+            </div>
+          </div>
+
+          <p class="text-[11px] text-[#41416E]">پیام ها</p>
+        </div>
+        <div
+          class="flex flex-col gap-[2px] cursor-pointer items-center justify-between"
+        >
+          <img
+            src="../src/img/icons/home nav menu.svg"
+            alt=""
+            class="h-[24px] w-[24px]"
+          />
+          <p class="text-[11px] text-[#41416E]">خانه</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

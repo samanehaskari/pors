@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Your user information</title>
+  </head>
+  <body class="relative h-screen">
+    <img
+      src="../src/img/steak gray outline.png"
+      class="absolute h-[260px] w-[272px] right-0 top-1/3 -translate-y-1/3"
+      alt=""
+    />
+    <div
+      class="flex flex-col top-0 left-0 py-[32px] px-[20px] w-full gap-[15px] bg-white"
+    >
+      <div class="flex justify-between items-center">
+        <img
+          src="../src/img/icons/left arrow black.svg"
+          alt=""
+          class="cursor-pointer"
+        />
+        <div class="flex flex-col gap-2 text-right">
+          <h1 class="font-semibold text-[22px]">پروفایل شما</h1>
+          <p class="text-[#9E9E9E] font-semibold text-[15px]">
+            اطلاعات کاربری شما
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- scroll part -->
+    <div
+      class="w-full pb-[130px] px-[22px] overflow-y-scroll no-scrollbar flex flex-col gap-[15px]"
+    >
+      <!-- personal detail form -->
+      <form action="" class="flex flex-col gap-[15px] text-right z-40">
+        <div>
+          <label for="" class="inline-block">نام و نام خانوادگی</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              value="علیرضا عسکری"
+              class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">نام برند</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              value="آشپز باشی"
+              class="focus:outline-none bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-right px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">کد ملی</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="number"
+              value="3540175643"
+              class="focus:outline-none font-serif text-[17px] bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-left px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">کد پستی</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              value="2266558"
+              class="focus:outline-none font-serif text-[17px] bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-left px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <label for="" class="inline-block">شماره تلفن ثابت</label>
+          <div
+            class="flex flex-row items-center h-[51px] text-sm text-black mt-2"
+          >
+            <input
+              type="text"
+              value="0256156 4569"
+              class="focus:outline-none font-serif text-[17px] bg-[#F5F5F5] rounded-[15px] border border-[#EAEBEC] grow text-left px-4 focus:bg-[#FFF6F2] focus:border-[#FD7130] transition-all duration-200 h-full"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- nav-->
+    <div
+      class="fixed bottom-0 px-[26px] left-0 bg-white h-[118px] z-30 w-full shadow-nav-shadow flex items-center justify-center border-t"
+    >
+      <button
+        class="bg-[#FD7130] w-full h-[58px] rounded-lg shadow-filter-button flex flex-row-reverse items-center justify-center gap-1.5 font-bold text-lg text-white"
+      >
+        <div>اعمال و ثبت تغییرات</div>
+      </button>
+    </div>
+  </body>
+</html>

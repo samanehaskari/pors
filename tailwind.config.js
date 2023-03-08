@@ -17,6 +17,7 @@ module.exports = {
         lg: "0px 3px 26px rgba(0, 0, 0, 0.06)",
         "filter-button": " 4px 8px 24px rgba(255, 143, 123, 0.25)",
         "submit-button": "4px 8px 24px rgba(254, 82, 0, 0.25)",
+        "nav-shadow": "0px 3px 26px rgba(0, 0, 0, 0.06)",
       },
     },
   },
